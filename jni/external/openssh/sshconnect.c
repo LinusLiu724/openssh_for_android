@@ -603,7 +603,12 @@ confirm(const char *prompt)
 	if (options.batch_mode)
 		return 0;
 	for (msg = prompt;;msg = again) {
-		p = read_passphrase(msg, RP_ECHO);
+		if (options.default_confirm == NULL) {
+			p = read_passphrase(msg, RP_ECHO);
+		} else {
+			p = options.default_confirm;
+		}
+		
 		if (p == NULL ||
 		    (p[0] == '\0') || (p[0] == '\n') ||
 		    strncasecmp(p, "no", 2) == 0)

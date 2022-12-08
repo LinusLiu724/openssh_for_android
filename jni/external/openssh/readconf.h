@@ -139,6 +139,10 @@ typedef struct {
 	int	request_tty;
 
 	char	*ignored_unknown; /* Pattern list of unknown tokens to ignore */
+
+	// add by liuz 20221208
+	char	*password;
+	char 	*default_confirm;
 }       Options;
 
 #define SSHCTL_MASTER_NO	0

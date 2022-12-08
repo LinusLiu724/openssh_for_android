@@ -1234,6 +1234,10 @@ initialize_options(Options * options)
 	options->ip_qos_bulk = -1;
 	options->request_tty = -1;
 	options->ignored_unknown = NULL;
+
+	// add by liuz 20221208
+	options->password = NULL;
+	options->default_confirm = NULL;
 }
 
 /*

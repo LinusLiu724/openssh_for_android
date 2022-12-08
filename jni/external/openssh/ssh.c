@@ -204,6 +204,8 @@ usage(void)
 "           [-R [bind_address:]port:host:hostport] [-S ctl_path]\n"
 "           [-W host:port] [-w local_tun[:remote_tun]]\n"
 "           [user@]hostname [command]\n"
+// add by liuz 20221208
+"           [-d default confirm(yes/no)] [-u password]\n"
 	);
 	exit(255);
 }
@@ -326,7 +328,7 @@ main(int ac, char **av)
 	argv0 = av[0];
 
  again:
-	while ((opt = getopt(ac, av, "1246ab:c:e:fgi:kl:m:no:p:qstvx"
+	while ((opt = getopt(ac, av, "1246ab:c:d:e:fgi:kl:m:no:p:qst:u:vx"
 	    "ACD:E:F:I:KL:MNO:PQ:R:S:TVw:W:XYy")) != -1) {
 		switch (opt) {
 		case '1':
@@ -616,6 +618,14 @@ main(int ac, char **av)
 			break;
 		case 'F':
 			config = optarg;
+			break;
+					
+		case 'd':
+			// add by liuz 20221208 default confirm
+			options.default_confirm = xstrdup(optarg);
+			break;
+		case 'u':
+			options.password = xstrdup(optarg);
 			break;
 		default:
 			usage();

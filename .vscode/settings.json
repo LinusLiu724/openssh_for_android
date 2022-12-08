@@ -2,6 +2,7 @@
     "files.associations": {
         "*.in": "cpp",
         "blowfish.h": "c",
-        "unistd.h": "c"
+        "unistd.h": "c",
+        "servconf.h": "c"
     }
 }
