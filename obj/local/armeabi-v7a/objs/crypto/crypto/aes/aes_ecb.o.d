@@ -1,0 +1,83 @@
+/root/data/zhi.liu/android-cli-openssh/obj/local/armeabi-v7a/objs/crypto/crypto/aes/aes_ecb.o: \
+ /root/data/zhi.liu/android-cli-openssh/jni/external/openssl/crypto/aes/aes_ecb.c \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/assert.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/cdefs.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/android/api-level.h \
+ external/openssl/include/openssl/aes.h \
+ external/openssl/include/openssl/opensslconf.h \
+ /root/data/zhi.liu/android-cli-openssh/jni/external/openssl/crypto/aes/aes_locl.h \
+ external/openssl/include/openssl/e_os2.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdio.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/types.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdint.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/_types.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/_types.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/posix_types.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/stddef.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/compiler.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/posix_types.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/types.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/types.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/kernel.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdlib.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/string.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/malloc.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/alloca.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/strings.h \
+ /root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/memory.h
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/assert.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/cdefs.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/android/api-level.h:
+
+external/openssl/include/openssl/aes.h:
+
+external/openssl/include/openssl/opensslconf.h:
+
+/root/data/zhi.liu/android-cli-openssh/jni/external/openssl/crypto/aes/aes_locl.h:
+
+external/openssl/include/openssl/e_os2.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdio.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/types.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdint.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/_types.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/_types.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/posix_types.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/stddef.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/compiler.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/posix_types.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/asm/types.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/linux/types.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/machine/kernel.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/stdlib.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/string.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/malloc.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/alloca.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/strings.h:
+
+/root/data/zhi.liu/android-ndk-r8e/platforms/android-14/arch-arm/usr/include/memory.h:

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.in": "cpp",
+        "blowfish.h": "c",
+        "unistd.h": "c"
+    }
+}
